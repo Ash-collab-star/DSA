@@ -1,5 +1,6 @@
 package codes;
 
+// LeetCode Link : https://leetcode.com/problems/find-pivot-index/description/
 public class PivotIndex {
     // Approach 1 : Brute Force
     // TC : O(n^2)
