@@ -20,7 +20,7 @@ public class PivotIndex {
     }
 
     // Approach 2 : Using Prefix and Suffix Sum
-    // TC : O(n^2)
+    // TC : O(n)
     // SC : O(n)
     public int pivotIndex2(int[] nums) {
         int n = nums.length;
@@ -48,7 +48,7 @@ public class PivotIndex {
         return -1;
     }
 
-    // Approach 3 : Updating the Input Array
+    // Approach 3 : Updating the Input Array to Prefix Sum Array
     // TC : O(n)
     // SC : O(1)
     public int pivotIndex3(int[] nums) {
