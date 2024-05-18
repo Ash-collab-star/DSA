@@ -3,10 +3,33 @@ package codes.arrays;
 // LeetCode Link : https://leetcode.com/problems/trapping-rain-water/
 public class TrappingRain {
 
+    // Approach 1 : Brute Force
+    // TC : O(n^2)
+    // SC : O(1)
+    public int trap1(int[] height) {
+        int n = height.length;
+
+        int waterTrapped = 0;
+        for (int i = 1; i < n - 1; i++) {
+            int leftMax = 0;
+            for (int j = 0; j < i; j++) {
+                leftMax = Math.max(leftMax, height[j]);
+            }
+            int rightMax = 0;
+            for (int k = i + 1; k < n; k++) {
+                rightMax = Math.max(rightMax, height[k]);
+            }
+            int water = Math.min(leftMax, rightMax) - height[i];
+            if (water > 0) waterTrapped += water;
+        }
+
+        return waterTrapped;
+    }
+
     // Approach 2 : Using Prefix Max and Suffix Max Array
     // TC : O(n)
     // SC : O(n)
-    public int trap(int[] height) {
+    public int trap2(int[] height) {
         int n = height.length;
 
         int[] pfm = new int[n];
