@@ -1,4 +1,4 @@
-package codes.arrays;
+package codes.Arrays;
 
 // GFG Link : https://www.geeksforgeeks.org/problems/second-largest3735/1?itm_source=geeksforgeeks&itm_medium=article&itm_campaign=bottom_sticky_on_article
 public class SecondMax {

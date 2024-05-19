@@ -1,4 +1,4 @@
-package codes.arrays;
+package codes.Arrays;
 
 // LeetCode Link : https://leetcode.com/problems/find-pivot-index/description/
 public class PivotIndex {
