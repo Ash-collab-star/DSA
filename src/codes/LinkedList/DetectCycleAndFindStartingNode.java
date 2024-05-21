@@ -1,4 +1,6 @@
 package codes.LinkedList;
+import codes.LinkedList.ds.ListNode;
+
 import java.util.*;
 
 // LeetCode Link : https://leetcode.com/problems/linked-list-cycle-ii/

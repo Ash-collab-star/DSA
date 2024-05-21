@@ -1,5 +1,7 @@
 package codes.LinkedList;
 
+import codes.LinkedList.ds.ListNode;
+
 // LeetCode Link : https://leetcode.com/problems/reverse-linked-list/
 public class ReverseLinkedList {
 

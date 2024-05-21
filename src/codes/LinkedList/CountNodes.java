@@ -1,5 +1,7 @@
 package codes.LinkedList;
 
+import codes.LinkedList.ds.Node;
+
 // GFG Link : https://www.geeksforgeeks.org/problems/count-nodes-of-linked-list/1
 public class CountNodes {
 

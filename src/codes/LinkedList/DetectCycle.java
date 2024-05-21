@@ -1,5 +1,7 @@
 package codes.LinkedList;
 
+import codes.LinkedList.ds.ListNode;
+
 import java.util.HashSet;
 import java.util.Set;
 
